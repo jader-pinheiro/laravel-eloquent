@@ -15,7 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tester/orders/{key}', 'TesterController@getOrderTesterController');
+//Route::get('/tester/orders/{key}', 'TesterController@getOrderTesterController'); //getOrderTesterController
+
+Route::get('/tester/products/{key}', 'TesterController@getProductTesterController');
 
 
 
